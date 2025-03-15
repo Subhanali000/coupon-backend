@@ -8,7 +8,7 @@ const app = express();
 
 // CORS Configuration
 const corsOptions = {
-  origin: 'http://localhost:3000 ', // Allow requests from the frontend (React app)
+  origin: 'https://coupon-redeem-iota.vercel.app ', // Allow requests from the frontend (React app)
   credentials: true, // Allow cookies to be sent with requests
   methods: 'GET,POST,PUT,DELETE', // Allowed methods
   allowedHeaders: 'Content-Type, Authorization', // Allowed headers
