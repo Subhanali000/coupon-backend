@@ -7,7 +7,7 @@ const couponRoutes = require('./routes/coupons');
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000', credentials: true })); // Allow frontend to access
+app.use(cors({ origin: 'https://coupon-redeem-iota.vercel.app/', credentials: true })); // Allow frontend to access
 app.use(express.json());
 app.use(cookieParser());
 app.use(requestIp.mw()); 
